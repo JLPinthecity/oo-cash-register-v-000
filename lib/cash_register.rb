@@ -17,6 +17,7 @@ class CashRegister
       puts "After the discount, the total comes to #{new_total}."
     else
       puts "There is no discount to apply."
+      binding.pry
     end
   end
 
